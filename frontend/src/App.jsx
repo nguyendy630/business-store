@@ -14,11 +14,19 @@ export default function App() {
 
   return(
     <>
-      <h1>Users</h1>
-      <ul>
-        {users.map(user => <li key={user.id}>{user.name}</li>)}
-        {users.map(user => <li key={user.id}>{user.email}</li>)}
-      </ul>
+      <header>
+        <h1 className='logo'>Bon Cafe & Barber</h1>
+        <ul>
+          <li><a href='#home'>Home</a></li>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#services'>Services</a></li>
+          <li><button className="cta"><a href='#contact'>Contact</a></button></li>
+        </ul>
+      </header>
+
+      <section id='home'>
+        
+      </section>
     </>
   );
   

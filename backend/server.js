@@ -21,3 +21,5 @@ app.get('/getUsers', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
+
+// App.post to add new users and save to database this is a form.
