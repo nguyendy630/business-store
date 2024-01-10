@@ -6,6 +6,8 @@
      box-sizing: border-box;
      font-family: 'Roboto', 'Sans-serif';
      scroll-behavior: smooth;
+     background-color: #121212;
+     color-scheme: dark;
 }
 
 header {
@@ -18,7 +20,10 @@ header {
      border-radius: 40px;
      padding-right: 15px;
      box-shadow: 10px;
-     box-shadow: rgb(38, 57, 77) 0px 10px 25px -10px;
+     box-shadow: rgb(38, 57, 77) 0px 10px 10px -10px;
+     position: sticky;
+     top: 0;
+     width: auto;
 }
 
 .logo {
@@ -30,6 +35,7 @@ header {
 li a {
      text-decoration: none;
      font-size: 1.2rem;
+     font-weight: bold;
      color: white;
 }
 
@@ -42,10 +48,11 @@ li a:hover {
      background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
      padding: 10px 30px;
      border-radius: 20px;
-     color: white;
      font-weight: bold;
      transition: 0.5s ease-in-out;
      border: none;
+     color: white;
+     font-size: 1.25rem;
 }
 
 .cta:hover {
@@ -55,7 +62,6 @@ li a:hover {
      transition: 0.5s ease-in-out;
 }
 
-
 ul {
      display: flex;
      flex-direction: row;
@@ -63,6 +69,33 @@ ul {
      gap: 2rem;
      align-items: center;
 }
+
+#hero {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #121212;
+}
+
+
+.heading-text {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 50%;
+     height: 400px;
+     flex-direction: column;
+     margin: 10px;
+     padding-top: 15px;
+     font-size: 1.5rem;
+}
+
+.heading-text .cta {
+     margin: 20px;
+     font-size: 1.2rem;
+}
+
 
 
 
