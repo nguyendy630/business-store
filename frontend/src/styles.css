@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -30,7 +31,7 @@ header {
 li a {
      text-decoration: none;
      font-size: 1.2rem;
-     color: white;
+     color: #d5c78d
 }
 
 li a:hover {
@@ -39,17 +40,16 @@ li a:hover {
 }
 
 .cta {
-     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+     background-image: linear-gradient(to right, #d5c78d 0%, #f3e5ab 63%);
      padding: 10px 30px;
      border-radius: 20px;
-     color: white;
+     color: #36454F;
      font-weight: bold;
      transition: 0.5s ease-in-out;
      border: none;
 }
 
 .cta:hover {
-     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
      transform: scale(1.1);
      cursor: pointer;
      transition: 0.5s ease-in-out;
