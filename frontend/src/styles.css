@@ -7,6 +7,8 @@
      box-sizing: border-box;
      font-family: 'Roboto', 'Sans-serif';
      scroll-behavior: smooth;
+     background-color: #121212;
+     color-scheme: dark;
 }
 
 header {
@@ -19,7 +21,7 @@ header {
      border-radius: 40px;
      padding-right: 15px;
      box-shadow: 10px;
-     box-shadow: rgb(38, 57, 77) 0px 10px 25px -10px;
+     box-shadow: rgb(38, 57, 77) 0px 10px 10px -10px;
 }
 
 .logo {
@@ -31,7 +33,9 @@ header {
 li a {
      text-decoration: none;
      font-size: 1.2rem;
-     color: #d5c78d
+     color: #d5c78d;
+     font-weight: bold;
+     color: white;
 }
 
 li a:hover {
@@ -40,21 +44,24 @@ li a:hover {
 }
 
 .cta {
-     background-image: linear-gradient(to right, #d5c78d 0%, #f3e5ab 63%);
+     background: rgb(243,229,171);
+     background: linear-gradient(283deg, rgba(243,229,171,1) 6%, rgba(54,69,79,0.75) 100%);
      padding: 10px 30px;
      border-radius: 20px;
-     color: #36454F;
      font-weight: bold;
      transition: 0.5s ease-in-out;
      border: none;
+     color: white;
+     font-size: 1.25rem;
 }
 
 .cta:hover {
+     background: rgb(243,229,171);
+     background: linear-gradient(283deg, rgba(243,229,171,1) 6%, rgba(54,69,79,0.75) 100%);
      transform: scale(1.1);
      cursor: pointer;
      transition: 0.5s ease-in-out;
 }
-
 
 ul {
      display: flex;
@@ -64,5 +71,52 @@ ul {
      align-items: center;
 }
 
+#hero {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #121212;
+}
 
 
+.heading-text {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 50%;
+     height: 400px;
+     flex-direction: column;
+     margin: 10px;
+     padding-top: 15px;
+     font-size: 1.5rem;
+}
+
+.heading-text .cta {
+     margin: 20px;
+     font-size: 1.2rem;
+}
+
+#about {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #121212;
+}
+
+#services {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #121212;
+}
+
+#contact {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #121212;
+}
